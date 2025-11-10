@@ -1,0 +1,74 @@
+/* Paleta suave y pacífica */
+:root {
+  --azul-paz: #5a9bd5;
+  --azul-suave: #dbe9f4;
+  --gris-claro: #f4f4f4;
+  --texto-oscuro: #2c3e50;
+  --borde-suave: #a3cce9;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--azul-suave);
+  color: var(--texto-oscuro);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header, section, footer {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 850px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-left: 8px solid var(--azul-paz);
+}
+
+h1, h2 {
+  color: var(--azul-paz);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: '🕊️ ';
+  padding-left: 20px;
+}
+
+a {
+  color: var(--azul-paz);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img.cartel {
+  display: block;
+  margin: 20px auto;
+  max-width: 95%;
+  border-radius: 12px;
+  border: 4px solid var(--borde-suave);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Pie de página con suavidad */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  border-left: none;
+  border-top: 2px solid var(--borde-suave);
+}
+.cartel-pequeno {
+  display: block;
+  margin: 20px auto;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 12px;
+  border: 3px solid #a3cce9;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
